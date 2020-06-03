@@ -10,6 +10,6 @@ namespace Parking.Domain.Core.Repositories
 {
     public interface IParkingAllocationRepository : IRepository<ParkingAllocation>
     {
-        IEnumerable<ParkingAllocation> GetParkingAllocations();
+         IEnumerable<ParkingAllocation> GetParkingAllocations();
     }
 }
